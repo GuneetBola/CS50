@@ -38,11 +38,7 @@ int main(void)
     //calculate the variables L and S using the information found above^
     float L = ((float)letter / word) * 100;
     float S = ((float)sentence / word) * 100;
-    printf("%i",letter);
-    printf("%i",word);
-    printf("%i",sentence);
-    printf("%f",L);
-    printf("%f",S);
+ 
     //final calculation for grade level using the Coleman-Liau index
     float grade = (0.0588 * L) - (0.296 * S) - 15.8;
     
